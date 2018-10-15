@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <vector>
 #include <string>
-#include <Eigen/Dense>
+#include <../Eigen/Dense>
 #include <iostream>
 
 #define MAX_STRING 10000
