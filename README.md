@@ -7,6 +7,11 @@ We also provide four datasets used in the PTE paper, which are the 20 newsgroups
 
 ## Install
 Our codes rely on two external packages, which are the Eigen package and the GSL package.
+```
+./download_modules.sh
+# Note that it needs libgsl-dev installed. If you have no sudo access, please see https://askubuntu.com/questions/339/how-can-i-install-a-package-without-root-access
+./make_all.sh
+```
 
 #### Eigen
 The [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) package is used for matrix operations. To run our codes, users need to download the Eigen package and modify the package path in the makefile.
